@@ -2186,22 +2186,10 @@ var links = [
         label: "More",
         icon: "MoreIcon",
         items: [
-            // {
-            //   label: "Voting",
-            //   href: "https://voting.pancakeswap.finance",
-            // },
-            {
-                label: "Github",
-                href: "https://github.com/astralfarm/",
-            },
-            {
-                label: "Docs",
-                href: "https://astral-farm.gitbook.io/astral-farm/",
-            },
-            {
-                label: "Blog",
-                href: "https://astralfarm.medium.com/",
-            },
+        // {
+        //   label: "Voting",
+        //   href: "https://voting.pancakeswap.finance",
+        // },
         ],
     },
 ];
@@ -2209,12 +2197,12 @@ var socials = [
     {
         label: "Telegram",
         icon: "TelegramIcon",
-        href: "https://t.me/astral_farm",
+        href: "https://t.me/",
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/Astral_FTM",
+        href: "https://twitter.com/",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -2392,9 +2380,9 @@ var Panel = function (props) {
     var isPushed = props.isPushed, showMenu = props.showMenu;
     return (React.createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
         React.createElement(PanelBody, __assign({}, props)),
-        React.createElement("a", { href: "https://rugdoc.io/project/astral-farm/" },
+        React.createElement("a", { href: "https://rugdoc.io/project/" },
             React.createElement(Image, { src: "/images/RugDoc.png", width: 370, height: 121, responsive: true, alt: "RugdocReview" })),
-        React.createElement("a", { href: "https://www.assuredefi.io/projects/astral-farm/" },
+        React.createElement("a", { href: "https://www.assuredefi.io/projects/" },
             React.createElement(Image, { src: "/images/assure/assure.png", width: 370, height: 121, responsive: true, alt: "AssureKYC" })),
         React.createElement(PanelFooter, __assign({}, props))));
 };
@@ -2796,9 +2784,9 @@ var templateObject_1$L;
 
 var baseColors = {
     failure: "#ED4B9E",
-    primary: "#ba1e68",
-    primaryBright: "#ba1e68",
-    primaryDark: "#ba1e68",
+    primary: "#fcc860",
+    primaryBright: "#fcc860",
+    primaryDark: "#fcc860",
     secondary: "#7645D9",
     success: "#31D0AA",
     warning: "#FFB237",
@@ -2809,7 +2797,7 @@ var brandColors = {
 var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#452A7A", textDisabled: "#BDC2C4", textSubtle: "#8f80ba", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#9A6AFF", background: "#1d1135", backgroundDisabled: "#27262c", contrast: "#1e293b", invertedContrast: "#191326", input: "#14213d", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#000000", card: "#1d1135", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#9A6AFF", background: "#663710", backgroundDisabled: "#27262c", contrast: "#1e293b", invertedContrast: "#191326", input: "#14213d", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#000000", card: "#663710", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 
