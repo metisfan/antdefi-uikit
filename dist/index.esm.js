@@ -2380,10 +2380,6 @@ var Panel = function (props) {
     var isPushed = props.isPushed, showMenu = props.showMenu;
     return (React.createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
         React.createElement(PanelBody, __assign({}, props)),
-        React.createElement("a", { href: "https://rugdoc.io/project/" },
-            React.createElement(Image, { src: "/images/RugDoc.png", width: 370, height: 121, responsive: true, alt: "RugdocReview" })),
-        React.createElement("a", { href: "https://www.assuredefi.io/projects/" },
-            React.createElement(Image, { src: "/images/assure/assure.png", width: 370, height: 121, responsive: true, alt: "AssureKYC" })),
         React.createElement(PanelFooter, __assign({}, props))));
 };
 var templateObject_1$E;
