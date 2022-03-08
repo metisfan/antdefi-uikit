@@ -40,12 +40,12 @@ const Panel: React.FC<Props> = (props) => {
   return (
     <StyledPanel isPushed={isPushed} showMenu={showMenu}>
       <PanelBody {...props} />
-      <a href="https://rugdoc.io/project/">
+      {/* <a href="https://rugdoc.io/project/">
         <Image src="/images/RugDoc.png" width={370} height={121} responsive alt="RugdocReview" />
       </a>
       <a href="https://www.assuredefi.io/projects/">
         <Image src="/images/assure/assure.png" width={370} height={121} responsive alt="AssureKYC" />
-      </a>
+      </a> */}
       <PanelFooter {...props} />
     </StyledPanel>
   );
