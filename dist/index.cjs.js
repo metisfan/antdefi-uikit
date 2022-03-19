@@ -2393,6 +2393,10 @@ var Panel = function (props) {
     var isPushed = props.isPushed, showMenu = props.showMenu;
     return (React__default['default'].createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
         React__default['default'].createElement(PanelBody, __assign({}, props)),
+        React__default['default'].createElement("a", { href: "https://rugdoc.io/project/weaver-ant-defi/" },
+            React__default['default'].createElement(Image, { src: "/images/RugDoc.png", width: 370, height: 121, responsive: true, alt: "RugdocReview" })),
+        React__default['default'].createElement("a", { href: "https://ape-guard.com/" },
+            React__default['default'].createElement(Image, { src: "/images/apeguard.png", width: 370, height: 121, responsive: true, alt: "Apeguard KYC" })),
         React__default['default'].createElement(PanelFooter, __assign({}, props))));
 };
 var templateObject_1$E;
