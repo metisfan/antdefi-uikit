@@ -43,7 +43,7 @@ const Panel: React.FC<Props> = (props) => {
       <a href="https://rugdoc.io/project/weaver-ant-defi/">
         <Image src="/images/RugDoc.png" width={370} height={121} responsive alt="RugdocReview" />
       </a>
-      <a href="https://ape-guard.com/">
+      <a href="https://ape-guard.com/project-details/">
         <Image src="/images/apeguard.png" width={370} height={121} responsive alt="Apeguard KYC" />
       </a>
       <PanelFooter {...props} />

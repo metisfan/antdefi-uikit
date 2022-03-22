@@ -2382,7 +2382,7 @@ var Panel = function (props) {
         React.createElement(PanelBody, __assign({}, props)),
         React.createElement("a", { href: "https://rugdoc.io/project/weaver-ant-defi/" },
             React.createElement(Image, { src: "/images/RugDoc.png", width: 370, height: 121, responsive: true, alt: "RugdocReview" })),
-        React.createElement("a", { href: "https://ape-guard.com/" },
+        React.createElement("a", { href: "https://ape-guard.com/project-details/" },
             React.createElement(Image, { src: "/images/apeguard.png", width: 370, height: 121, responsive: true, alt: "Apeguard KYC" })),
         React.createElement(PanelFooter, __assign({}, props))));
 };
